@@ -1,6 +1,6 @@
 body {
     background-color: rgb(29, 184, 145);
-    font-size: 2vw;
+    font-size: 4vw;
 }
 
 header {
@@ -11,25 +11,30 @@ header {
     display: flex;
     text-align: center;
     justify-content: center;
+    align-content: center;
     width:100%
+    
 }
 
 h1 {
-    font-size: 7vw;
+    font-size: 12vw;
 }
 
 select {
-    width: 100%;
+    font-size: 4vw;
 }
+
 
 .smallImg {
     border-radius: 125px;
-    max-width: 150px;
+    min-width: 150px;
+    max-width: 300px;
     border: solid rgb(28, 28, 95);
 }
 
 .largeImg {
-    max-width: 750px;
+    min-width: 300px;
+    max-width: 700px;
     border-radius: 100px;
     border: solid rgb(28, 28, 95);
     background-color: blue;
@@ -37,6 +42,7 @@ select {
 }
 
 #largeImage {
+    min-width: 350px;
     max-width: 750px;
     margin: auto;
     text-align: center;
@@ -54,13 +60,15 @@ select {
 }
 
 button {
-    align-items: end;
+    align-items: center;
     background-color: blue;
     border: rgb(29, 184, 145);
     padding: 5px;
-    margin: 10px;
-    max-width: 50px;
+    margin: auto;
+    max-width: 75px;
+    max-height: 50px;
     border-radius: 25px;
+    font-size: 3vw;
 }
 
 label {
@@ -79,8 +87,6 @@ label {
     justify-content: center;
 }
 .dropdown {
-    max-width: 75%;
-    width: 300px;
     text-align: center;
     margin-top: 25px;
     color: blue;
