@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+            <button onclick="rex()" id="btnRex">Rex</button>
+            <h1>This is Rex</h1>
+            <button onclick="buzz()" id="btnBuzz">Buzz</button>
+    </header>
+    <main>
+        <div class="line">
+            <div class="imgContainer">
+                <img class = smallImg id="img1" src="https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21649&authkey=%21ABaxSQS40IA4EVo&width=1500&height=2000" alt="rex on a wall">
+                <br><label id="label1" for="img1">Wall Rex</label>
+            </div>
+            <div class="imgContainer">
+                <img class="smallImg" id="img2" src="https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21646&authkey=%21AD2YKLdO1CXGN3U&width=1500&height=2000" alt="rex in a suitcase">
+                <br><label id="label2" for="img2">Suitcase Rex</label>
+            </div>
+        </div>
+        <br>
+        <div class="line">
+            <div class="dropdown">
+                <!-- <h3>Select an image</h3> -->
+                <select name="images" id="images" >
+                    <option value="" selected disabled>Select an Image</option>
+                    <option value="rex1">What you looking at?</option>
+                    <option value="rex2">You know im a dog right?</option>
+                    <option value="rex3">Two in a bed</option>
+                    <option value="rex4">can we go yet?</option>
+                    <option value="rex5">Airbrushed Rex</option>
+                    <option value="rex6">Got milk?</option>
+                </select>
+            </div>
+            <button id="bt3" onclick="showImg()">Show Image</button>
+
+        </div>
+        <div id="largeImage" class="imgContainer">
+            <img class = largeImg id="img3" src="" alt=""><br>
+            <label id="label3" for="img3"></label>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
