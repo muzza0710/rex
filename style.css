@@ -1,5 +1,6 @@
 body {
     background-color: rgb(29, 184, 145);
+    font-size: 2vw;
 }
 
 header {
@@ -14,8 +15,13 @@ header {
 }
 
 h1 {
-    font-size: 10vh;
+    font-size: 7vw;
 }
+
+select {
+    width: 100%;
+}
+
 .smallImg {
     border-radius: 125px;
     max-width: 150px;
@@ -73,6 +79,8 @@ label {
     justify-content: center;
 }
 .dropdown {
+    max-width: 75%;
+    width: 300px;
     text-align: center;
     margin-top: 25px;
     color: blue;
