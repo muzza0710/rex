@@ -6,12 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-            <button onclick="rex()" id="btnRex">Rex</button>
-            <h1>This is Rex</h1>
-            <button onclick="buzz()" id="btnBuzz">Buzz</button>
-    </header>
     <main>
+        <div class="heading">
+            <h1>This is Rex</h1>
+            <button onclick="rex()" id="btnRex">Rex</button>
+            <button onclick="buzz()" id="btnBuzz">Buzz</button>
+        </div>
         <div class="line">
             <div class="imgContainer">
                 <img class = smallImg id="img1" src="https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21649&authkey=%21ABaxSQS40IA4EVo&width=1500&height=2000" alt="rex on a wall">
@@ -25,21 +25,26 @@
         <br>
         <div class="line">
             <div class="dropdown">
-                <!-- <h3>Select an image</h3> -->
                 <select name="images" id="images" onchange="showImg()" >
                     <option value="" selected disabled>Select an Image</option>
-                    <option value="rex1">What you looking at?</option>
-                    <option value="rex2">You know im a dog right?</option>
-                    <option value="rex3">Two in a bed</option>
-                    <option value="rex4">can we go yet?</option>
-                    <option value="rex5">Airbrushed Rex</option>
-                    <option value="rex6">Got milk?</option>
+                    <option value="https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21653&authkey=%21ANZaLCyPliNwCkA&width=8000&height=6000"
+                    >What you looking at?</option>
+                    <option value="https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21654&authkey=%21AHV1nAn9CwrKvL0&width=1200&height=1600"
+                    >You know im a dog right?</option>
+                    <option value="https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21655&authkey=%21ADMsxvTuYxXiM9s&width=8000&height=6000"
+                    >Two in a bed</option>
+                    <option value="https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21645&authkey=%21AE1_SoDkasvXa3I&width=1500&height=2000"
+                    >can we go yet?</option>
+                    <option value="https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21660&authkey=%21ALnR2GxunS4Mt0k&width=1080&height=1920"
+                    >Airbrushed Rex</option>
+                    <option value="https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21661&authkey=%21AOLxzAzCUHPdqPE&width=1536&height=2048"
+                    >Got milk?</option>
                 </select>
             </div>
         </div>
         <div id="largeImage" class="imgContainer">
             <img class = largeImg id="img3" src="" alt=""><br>
-            <label id="label3" for="img3"></label>
+            <label id="label3" for="img3">testing</label>
         </div>
     </main>
     <script src="script.js"></script>
