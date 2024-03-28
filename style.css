@@ -3,21 +3,15 @@ body {
     font-size: 4vw;
 }
 
-header {
-    margin-bottom: 25px;
-    border-radius: 5px;
+.heading {
     background-color: rgb(28, 28, 95);
     color: rgb(29, 184, 145);
-    display: flex;
     text-align: center;
-    justify-content: center;
-    align-content: center;
-    width:100%
-    
 }
 
 h1 {
     font-size: 12vw;
+    margin-bottom: 0px;
 }
 
 select {
@@ -60,15 +54,13 @@ select {
 }
 
 button {
-    align-items: center;
+    display: inline;
     background-color: blue;
     border: rgb(29, 184, 145);
-    padding: 5px;
-    margin: auto;
-    max-width: 75px;
-    max-height: 50px;
-    border-radius: 25px;
+    padding: 1vw;
+    border-radius: 2vw;
     font-size: 3vw;
+    margin-bottom: 2vw;
 }
 
 label {
@@ -78,8 +70,7 @@ label {
 }
 
 #label3 {
-    color: rgb(29, 184, 145);
-}
+    color: rgb(28, 28, 95);}
 
 .imgContainer {
     margin: 25px;
