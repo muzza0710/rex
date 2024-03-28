@@ -23,32 +23,10 @@ function buzz() {
 function showImg() {
     let images = document.getElementById("images");
     let image = document.getElementById("img3");
-
-    if (images.value === "rex1") {
-        image.src = "https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21653&authkey=%21ANZaLCyPliNwCkA&width=8000&height=6000"
-        label3.innerHTML = "Side Eye"
-    }
-    else if (images.value === "rex2"){
-        image.src = "https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21654&authkey=%21AHV1nAn9CwrKvL0&width=1200&height=1600"
-        label3.innerHTML = "unimpressed"
-    }
-    else if (images.value === "rex3"){
-        image.src = "https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21655&authkey=%21ADMsxvTuYxXiM9s&width=8000&height=6000"
-        label3.innerHTML = "bedtime"
-    }
-    else if (images.value === "rex4"){
-        image.src = "https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21645&authkey=%21AE1_SoDkasvXa3I&width=1500&height=2000"
-        label3.innerHTML = "Tom and Rex"
-    }
-    else if (images.value === "rex5"){
-        image.src = "https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21660&authkey=%21ALnR2GxunS4Mt0k&width=1080&height=1920"
-        label3.innerHTML = "Kelly and Rex"
-    }
-    else if (images.value === "rex6"){
-        image.src = "https://onedrive.live.com/embed?resid=F9A5EF287CE8C24A%21661&authkey=%21AOLxzAzCUHPdqPE&width=1536&height=2048"
-        label3.innerHTML = "Baby Rex"
-    }
-    
+    let text = images.options[images.selectedIndex].textContent;
+    let label3 = document.getElementById("label3");
+    image.src = images.value;
+    label3.innerHTML = text;
 }
 
 
