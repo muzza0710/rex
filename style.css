@@ -1,47 +1,38 @@
 body {
-    background-color: rgb(29, 184, 145);
-    font-size: 4vw;
+    background-color: #3772FF;
+    color: #210124;
 }
 
+
 .heading {
-    background-color: rgb(28, 28, 95);
-    color: rgb(29, 184, 145);
+    background-color: #210124;
+    color: #3772FF;
     text-align: center;
 }
 
 h1 {
-    font-size: 12vw;
+    font-size: 5rem;
     margin-bottom: 0px;
-}
-
-select {
-    font-size: 4vw;
 }
 
 
 .smallImg {
     border-radius: 125px;
-    min-width: 150px;
-    max-width: 300px;
-    border: solid rgb(28, 28, 95);
+    max-width: 9rem;
+    border: solid #210124;
 }
 
 .largeImg {
-    min-width: 300px;
-    max-width: 700px;
+    width: 90%;
+    max-width: 500px;
     border-radius: 100px;
-    border: solid rgb(28, 28, 95);
-    background-color: blue;
-    color: rgb(29, 184, 145);
+    border: solid #210124;
 }
 
 #largeImage {
-    min-width: 350px;
-    max-width: 750px;
     margin: auto;
     text-align: center;
-    padding: 25px;
-    border-radius: 100px;
+    padding: 1rem;
 }
 
 .imgTitle{
@@ -55,22 +46,17 @@ select {
 
 button {
     display: inline;
-    background-color: blue;
-    border: rgb(29, 184, 145);
-    padding: 1vw;
-    border-radius: 2vw;
-    font-size: 3vw;
-    margin-bottom: 2vw;
+    background-color: #75DDDD;
+    border: #210124;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 label {
     font-weight: bold;
-    color: rgb(28, 28, 95);
     text-align: center;
 }
-
-#label3 {
-    color: rgb(28, 28, 95);}
 
 .imgContainer {
     margin: 25px;
@@ -80,5 +66,4 @@ label {
 .dropdown {
     text-align: center;
     margin-top: 25px;
-    color: blue;
 }
